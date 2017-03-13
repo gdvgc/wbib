@@ -1,0 +1,6 @@
+# on ne prend pas les logs (si le dossier de travail est polué)
+*.log
+journal.*
+
+# on exclue aussi les tests
+test*

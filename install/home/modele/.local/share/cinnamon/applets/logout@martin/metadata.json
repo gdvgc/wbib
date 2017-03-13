@@ -1,0 +1,8 @@
+{
+    "uuid": "logout@martin", 
+    "dangerous": false, 
+    "description": "2-clicks logout", 
+    "name": "logout", 
+    "last-edited": 1485102603, 
+    "icon": "gnome-logout"
+}

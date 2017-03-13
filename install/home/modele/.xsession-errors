@@ -1,0 +1,98 @@
+
+** (cinnamon-session:4351): WARNING **: Couldn't connect to accessibility bus: Failed to connect to socket /tmp/dbus-ohWB4PTHj2: Connexion refusée
+Activating service name='org.a11y.atspi.Registry'
+Successfully activated service 'org.a11y.atspi.Registry'
+
+(cinnamon-settings-daemon:4492): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
+
+(cinnamon-settings-daemon:4492): color-plugin-WARNING **: unable to get EDID for xrandr-VGA-0: unable to get EDID for output
+pci id for fd 10: 80ee:beef, driver (null)
+libGL error: core dri or dri2 extension not found
+libGL error: failed to load driver: vboxvideo
+Window manager warning: Software rendering detected: Gallium 0.4 on llvmpipe (LLVM 3.8, 128 bits)
+cinnamon-session[4351]: WARNING: t+1,21474s: Failed to start app: Unable to start application: L'exécution du processus fils « mintwelcome-launcher » a échoué (No such file or directory)
+
+** (light-locker:4603): WARNING **: écran de veille déjà en cours d'exécution dans cette session
+Cjs-Message: JS LOG: About to start Cinnamon
+Cjs-Message: JS LOG: ACTIVATING SOFTWARE RENDERING
+St-Message: cogl npot texture sizes SUPPORTED
+Cjs-Message: JS LOG: Cinnamon started at Tue Jan 31 2017 16:00:21 GMT+0100 (CET)
+Cjs-Message: JS LOG: network applet: Cannot find connection for active (or connection cannot be read)
+openGL version 3.3 detected (GL3 Cogl Driver)
+MetaSyncRing disabled: couldn't find required GL extensions, or the minimum safe openGL version was not met
+Cjs-Message: JS LOG: Invalid network device type, is 14
+Cjs-Message: JS LOG: network applet: Found connection for active
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+Nemo-Share-Message: Called "net usershare info" but it failed: « net usershare » a retourné l'erreur 255 : net usershare: cannot open usershare directory /var/lib/samba/usershares. Error Aucun fichier ou dossier de ce type
+Please ask your system administrator to enable user sharing.
+
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+mintUpdate(2648): Opération non permise
+mintUpdate: aucun processus trouvé
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(nemo:4607): GLib-GIO-CRITICAL **: g_file_info_get_attribute_uint64: assertion 'G_IS_FILE_INFO (info)' failed
+
+(cinnamon-settings-daemon:4492): Gdk-WARNING **: cinnamon-settings-daemon: Fatal IO error 11 (Ressource temporairement non disponible) on X server :1.
+
+
+(polkit-gnome-authentication-agent-1:4610): Gdk-WARNING **: polkit-gnome-authentication-agent-1: Fatal IO error 11 (Ressource temporairement non disponible) on X server :1.
+
+
+(nm-applet:4608): Gdk-WARNING **: nm-applet: Fatal IO error 11 (Ressource temporairement non disponible) on X server :1.
+
+
+(cinnamon-killer-daemon:4609): Gdk-WARNING **: cinnamon-killer-daemon: Fatal IO error 11 (Ressource temporairement non disponible) on X server :1.
+
+
+(mintUpdate.py:4717): Gdk-WARNING **: mintUpdate.py: Fatal IO error 11 (Ressource temporairement non disponible) on X server :1.
+
+
+(cinnamon-screensaver-main.py:4703): Gdk-WARNING **: cinnamon-screensaver-main.py: Fatal IO error 11 (Ressource temporairement non disponible) on X server :1.
+
+
+(xed:4765): Gdk-WARNING **: xed: Fatal IO error 11 (Ressource temporairement non disponible) on X server :1.
+

@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[fr_BE]=/home/public/.epn.conf/Logo_Universalis.png
+Name[fr_BE]=Encyclopédie Universalis
+Exec=firefox http://www.universalis-edu.com/
+Name=Encyclopédie Universalis
+Icon=/home/modele/.epn.conf/Logo_Universalis.png
