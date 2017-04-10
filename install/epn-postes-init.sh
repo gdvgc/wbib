@@ -233,4 +233,4 @@ echo "\nconfiguration terminée pour $nom_poste\n"
 printline %
 printline %
 
-cp ${LOG_FILE} ${LOG_FILE}${nom_poste}
+cp ${LOG_FILE} ${nom_poste}${LOG_FILE}
