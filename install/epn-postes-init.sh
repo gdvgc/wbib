@@ -126,10 +126,10 @@ fn_nommer_poste
 printline %
 liste_base="/etc/apt/sources.list.d/official-package-repositories.list"
 
-if [ -f $list_base ];
+if [ -f $liste_base ];
 then
    echo "Le fichier $list_base existe, on le sauvegarde."
-   mv $list_base $list_base".orig"
+   mv $list_base $liste_base".orig"
    cp $workdir/etc/apt/sources.list.d/official-package-repositories.list /etc/apt/sources.list.d/
 else
    echo "File $list_base does not exist."
@@ -153,7 +153,7 @@ apt-get -y dist-upgrade
 echo "ajout de l'utilisateur invité" 
 # attention pour ce faire on doit changer de gestionnaire de session, de GDM vers LightDM
 echo "on doit changer de gestionnaire de session, de GDM vers LightDM"
-apt-get install lightdm lightdm-gtk-greeter unity-greeter light-themes light-locker gksu leafpad
+apt-get install -y lightdm lightdm-gtk-greeter unity-greeter light-themes light-locker gksu leafpad
 # copie de la configuration de lightDM
 cp -rf $workdir/etc/lightdm /etc/
 
@@ -233,4 +233,4 @@ echo "\nconfiguration terminée pour $nom_poste\n"
 printline %
 printline %
 
-cp ${LOG_FILE} ${nom_poste}${LOG_FILE}
+cp ${LOG_FILE} ${LOG_FILE}${nom_poste}
