@@ -168,8 +168,11 @@ cp -rf $workdir/$userhome/. $userhome/
 
 chmod +x $userhome/Bureau/*
 
-# on crée un lien sybolique vers le home de modele pour l'utilisateur invité
+# on copie les paramètres de la session invitée
 cp -rf $workdir/etc/guest-session /etc/
+chmod +x /etc/lightdm/ajustements.sh
+
+# on crée un lien sybolique vers le home de modele pour l'utilisateur invité
 ln -s $userhome /etc/guest-session/skel 
 
 # 
