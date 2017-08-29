@@ -3,21 +3,30 @@ nemo-icon-view-keep-aligned=true
 nemo-icon-view-layout-timestamp=1485874822
 
 [computer]
-nemo-icon-position=64,22
+nemo-icon-position=91,33
 icon-scale=1
-nemo-icon-position-timestamp=1485874822
+nemo-icon-position-timestamp=1503927176
+monitor=0
 
 [home]
-nemo-icon-position=64,102
+nemo-icon-position=91,133
 icon-scale=1
-nemo-icon-position-timestamp=1485874822
+nemo-icon-position-timestamp=1503927176
+monitor=0
 
 [sf_share.volume]
-nemo-icon-position=64,202
+nemo-icon-position=91,233
 icon-scale=1
-nemo-icon-position-timestamp=1485858818
+nemo-icon-position-timestamp=1503927176
+monitor=0
 
 [VBOXADDITIONS_4.3.36_105129.volume]
 nemo-icon-position=64,302
 icon-scale=1
 nemo-icon-position-timestamp=1485874822
+
+[desktop-monitor-0]
+nemo-icon-view-auto-layout=true
+nemo-icon-view-tighter-layout=false
+nemo-icon-view-keep-aligned=true
+nemo-icon-view-layout-timestamp=1503927176

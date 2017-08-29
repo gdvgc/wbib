@@ -19,6 +19,7 @@
         "type": "switch",
         "default": false,
         "description": "Reverse the direction of mouse-wheel scrolling in the window list",
+        "dependency": "enable-scrolling",
         "value": false
     },
     "middle-click-close": {
@@ -43,5 +44,5 @@
         "description": "Show window thumbnails on hover",
         "value": true
     },
-    "__md5__": "b0efcd23c11ece23954b5bfb8e518814"
+    "__md5__": "35771229b9f59d97eddee2c0bc8ebb2c"
 }
